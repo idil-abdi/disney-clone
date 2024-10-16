@@ -26,7 +26,7 @@ const MovieList = ({genreId}) => {
 return (
     <div className="relative" >
         <IoChevronBackOutline  onClick={() =>  slideLeft(elementRef.current)} className="hidden md:block text-white text-[50px] absolute mt-[150px] cursor-pointer z-10 p-2"/>
-        <div ref={elementRef} className="flex overflow-x-auto gap-8 scrollbar-none py-5 px-3 scrollbar-none scroll-smooth">
+        <div ref={elementRef} className="flex overflow-x-auto gap-8 py-5 px-3 scrollbar-none scroll-smooth">
             {movieList.map((item, index) => index < 13 && (
                 <MovieCard key={index} movie={item}/>
             ))}
