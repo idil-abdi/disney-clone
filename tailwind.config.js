@@ -1,6 +1,7 @@
 
 import flowbite  from "flowbite-react/tailwind";
 import tailwindNoScroll from 'tailwindcss-no-scrollbar'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [

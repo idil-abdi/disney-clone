@@ -1,13 +1,13 @@
-import GenreMovieList from './components/GenreMovieList'
-import Header from './components/Header'
-import ProductionHouse from './components/ProductionHouse'
-import Slider from './components/Slider'
+import GenreMovieList from './Components/GenreMovieList'
+import Header from './Components/Header'
+import ProductionHouse from './Components/ProductionHouse'
+import Slider from './Components/Slider'
 
 function App() {
 
   return (
     <>
-      <div> 
+      <div className='bg-[#131420]'> 
         <Header/>
         <Slider/>
         <ProductionHouse/>
